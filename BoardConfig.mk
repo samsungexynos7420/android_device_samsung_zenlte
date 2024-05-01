@@ -23,10 +23,10 @@
 # inherit from universal7420-common
 include device/samsung/universal7420-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/noblelte
+DEVICE_PATH := device/samsung/zenlte
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := noblelte,nobleltedd,nobleltedv,nobleltejv,nobleltektt,nobleltelgt,noblelteskt
+TARGET_OTA_ASSERT_DEVICE := zenlte,zenltedd,zenltedv,zenltejv,zenltektt,zenltelgt,zenlteskt
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
@@ -40,10 +40,10 @@ TARGET_LD_SHIM_LIBS += \
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_noblelte
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_zenlte
 
 # Kernel
-TARGET_KERNEL_CONFIG := exynos7420-noblelte_defconfig
+TARGET_KERNEL_CONFIG := exynos7420-zenlte_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
@@ -58,4 +58,4 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # inherit from the proprietary version
-include vendor/samsung/noblelte/BoardConfigVendor.mk
+include vendor/samsung/zenlte/BoardConfigVendor.mk

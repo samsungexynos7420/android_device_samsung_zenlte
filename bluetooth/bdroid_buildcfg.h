@@ -18,7 +18,7 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "Samsung Galaxy Note5"
+#define BTM_DEF_LOCAL_NAME   "Samsung Galaxy S6 Edge+"
 
 #define BTM_WBS_INCLUDED        TRUE    /* Enable WBS */
 #define BTIF_HF_WBS_PREFERRED   FALSE   /* Don't prefer WBS */

@@ -14,9 +14,10 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/noblelte
+LOCAL_PATH := device/samsung/zenlte
 
-ifneq ($(filter noblelte nobleltedd nobleltedv nobleltejv nobleltektt nobleltelgt noblelteskt,$(TARGET_DEVICE)),)
+# Support installing on all zenlte targets regardless of stability or bootability
+ifneq ($(filter zenlte zenltedd zenltedv zenltejv zenltektt zenltelgt zenlteskt zenltexx zenltezt,$(TARGET_DEVICE)),)
 
   subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
   $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))

@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/noblelte
+LOCAL_PATH := device/samsung/zenlte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/lineage_noblelte.mk
+    $(LOCAL_PATH)/lineage_zenlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_noblelte-userdebug \
-    lineage_noblelte-user \
-    lineage_noblelte-eng
+    lineage_zenlte-userdebug \
+    lineage_zenlte-user \
+    lineage_zenlte-eng

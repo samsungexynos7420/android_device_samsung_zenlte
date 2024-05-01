@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/noblelte
+LOCAL_PATH := device/samsung/zenlte
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -46,4 +46,4 @@ $(call inherit-product, device/samsung/universal7420-common/device-common.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Call the proprietary
-$(call inherit-product, vendor/samsung/noblelte/noblelte-vendor.mk)
+$(call inherit-product, vendor/samsung/zenlte/zenlte-vendor.mk)

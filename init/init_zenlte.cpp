@@ -61,11 +61,11 @@ void vendor_load_properties()
 {
     std::string bootloader = GetProperty("ro.bootloader", "");
 
-    property_override("ro.build.description", "nobleltejv-user 7.0 NRD90M N920CXXS5CRH3 release-keys");
-    set_ro_product_prop("device", "noblelte");
-    set_ro_build_prop("fingerprint", "samsung/nobleltejv/noblelte:7.0/NRD90M/N920CXXS5CRH3:user/release-keys");
-    set_ro_product_prop("model", "SM-N920C");
-    set_ro_product_prop("name", "noblelte");
+    property_override("ro.build.description", "zenltejv-user 7.0 NRD90M G928FXXU5CRI1 release-keys");
+    set_ro_product_prop("device", "zenlte");
+    set_ro_build_prop("fingerprint", "samsung/zenltejv/zenlte:7.0/NRD90M/G928FXXU5CRI1:user/release-keys");
+    set_ro_product_prop("model", "SM-G928F");
+    set_ro_product_prop("name", "zenlte");
     gsm_properties("9");
     set_sim_info();
 

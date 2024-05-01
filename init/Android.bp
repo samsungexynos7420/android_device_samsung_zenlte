@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_noblelte",
+    name: "libinit_zenlte",
     recovery_available: true,
-    srcs: ["init_noblelte.cpp"],
+    srcs: ["init_zenlte.cpp"],
     include_dirs: [
         "device/samsung/universal7420-common/init",
         "system/libbase/include",
